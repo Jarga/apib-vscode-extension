@@ -1,0 +1,26 @@
+{
+    "name": "apib",
+    "displayName": "API Blueprint Language",
+    "description": "Provides API Blueprint language support for VSCode",
+    "version": "0.0.1",
+    "publisher": "Jarga",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "apib",
+            "aliases": ["API Blueprint", "apib"],
+            "extensions": [".apib"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "apib",
+            "scopeName": "text.html.markdown.source.gfm.apib",
+            "path": "./syntaxes/apib.tmLanguage"
+        }]
+    }
+}
