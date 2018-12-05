@@ -2,7 +2,7 @@
     "name": "apib",
     "displayName": "API Blueprint Language",
     "description": "Provides API Blueprint language support for VSCode",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Jarga",
     "engines": {
         "vscode": "^1.13.0"
